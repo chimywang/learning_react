@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015", "react"],
+  //支持热替换
+  "env": {//only in dev
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}
